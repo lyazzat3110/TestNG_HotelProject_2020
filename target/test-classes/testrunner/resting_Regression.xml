@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hotel Regression Suite">
+
+  <test name="Hotle Functional Regression Test">
+  <parameter name = "browser" value ="chrome"/>
+    <classes>
+      <class name="com.qa.hotel.test.DestinationPageTest"/>
+      <class name="com.qa.hotel.test.Hotel3starPageTest"/>
+      <class name="com.qa.hotel.test.Hotel4starPageTest"/>
+      <class name="com.qa.hotel.test.Hotel5StarPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

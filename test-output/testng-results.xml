@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13987" started-at="2020-08-03T11:45:08 EDT" finished-at="2020-08-03T11:45:22 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13987" started-at="2020-08-03T11:45:08 EDT" finished-at="2020-08-03T11:45:22 EDT">
+      <class name="com.qa.hotel.test.Hotel3starPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hotel.test.Hotel3starPageTest@9660f4e]" name="setUp" is-config="true" duration-ms="10497" started-at="2020-08-03T11:45:08 EDT" finished-at="2020-08-03T11:45:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyPageTitleTest()[pri:1, instance:com.qa.hotel.test.Hotel3starPageTest@9660f4e]" name="verifyPageTitleTest" duration-ms="107" started-at="2020-08-03T11:45:18 EDT" description="This test shows verification title of the page" finished-at="2020-08-03T11:45:19 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitleTest -->
+        <test-method status="PASS" signature="ShowHotelList()[pri:2, instance:com.qa.hotel.test.Hotel3starPageTest@9660f4e]" name="ShowHotelList" duration-ms="2892" started-at="2020-08-03T11:45:19 EDT" description="This test searches for 3 star hotels with distance less then 10 miles from city center" finished-at="2020-08-03T11:45:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShowHotelList -->
+        <test-method status="PASS" signature="verifyNameOfHotel()[pri:3, instance:com.qa.hotel.test.Hotel3starPageTest@9660f4e]" name="verifyNameOfHotel" duration-ms="193" started-at="2020-08-03T11:45:22 EDT" description="This test verifies Hilton hotels in 3 star list of hotel" finished-at="2020-08-03T11:45:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNameOfHotel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hotel.test.Hotel3starPageTest@9660f4e]" name="tearDown" is-config="true" duration-ms="218" started-at="2020-08-03T11:45:22 EDT" finished-at="2020-08-03T11:45:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hotel.test.Hotel3starPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
